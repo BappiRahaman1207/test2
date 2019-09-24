@@ -44,5 +44,40 @@ namespace MyWinApps
             newForm.Show();
             this.Hide();
         }
+
+        private void ArrayButton_Click(object sender, EventArgs e)
+        {
+            Array newForm = new Array();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void LoopUiButton_Click(object sender, EventArgs e)
+        {
+            ArrayProgram1 newForm = new ArrayProgram1();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void ArrayProgram2Button_Click(object sender, EventArgs e)
+        {
+            ArrayProgram2 newForm = new ArrayProgram2();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ArrayDuplicate newForm = new ArrayDuplicate();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Method newForm = new Method();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }

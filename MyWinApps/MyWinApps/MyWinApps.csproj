@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Array.Designer.cs">
+      <DependentUpon>Array.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayDuplicate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayDuplicate.Designer.cs">
+      <DependentUpon>ArrayDuplicate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayProgram2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayProgram2.Designer.cs">
+      <DependentUpon>ArrayProgram2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Calculator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +88,18 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArrayProgram1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArrayProgram1.Designer.cs">
+      <DependentUpon>ArrayProgram1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Method.Designer.cs">
+      <DependentUpon>Method.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonalInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +108,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Array.resx">
+      <DependentUpon>Array.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayDuplicate.resx">
+      <DependentUpon>ArrayDuplicate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayProgram2.resx">
+      <DependentUpon>ArrayProgram2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayProgram1.resx">
+      <DependentUpon>ArrayProgram1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Method.resx">
+      <DependentUpon>Method.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonalInformation.resx">
       <DependentUpon>PersonalInformation.cs</DependentUpon>

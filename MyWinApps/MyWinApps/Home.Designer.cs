@@ -32,6 +32,11 @@
             this.CalculatorButton = new System.Windows.Forms.Button();
             this.PersonalInformationButton = new System.Windows.Forms.Button();
             this.CoffeeShopButton = new System.Windows.Forms.Button();
+            this.ArrayButton = new System.Windows.Forms.Button();
+            this.LoopUiButton = new System.Windows.Forms.Button();
+            this.ArrayProgram2Button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ComboBoxButton
@@ -74,11 +79,66 @@
             this.CoffeeShopButton.UseVisualStyleBackColor = true;
             this.CoffeeShopButton.Click += new System.EventHandler(this.CoffeeShopButton_Click);
             // 
+            // ArrayButton
+            // 
+            this.ArrayButton.Location = new System.Drawing.Point(568, 95);
+            this.ArrayButton.Name = "ArrayButton";
+            this.ArrayButton.Size = new System.Drawing.Size(75, 23);
+            this.ArrayButton.TabIndex = 3;
+            this.ArrayButton.Text = "Array";
+            this.ArrayButton.UseVisualStyleBackColor = true;
+            this.ArrayButton.Click += new System.EventHandler(this.ArrayButton_Click);
+            // 
+            // LoopUiButton
+            // 
+            this.LoopUiButton.Location = new System.Drawing.Point(50, 149);
+            this.LoopUiButton.Name = "LoopUiButton";
+            this.LoopUiButton.Size = new System.Drawing.Size(99, 23);
+            this.LoopUiButton.TabIndex = 4;
+            this.LoopUiButton.Text = "ArrayProgram1";
+            this.LoopUiButton.UseVisualStyleBackColor = true;
+            this.LoopUiButton.Click += new System.EventHandler(this.LoopUiButton_Click);
+            // 
+            // ArrayProgram2Button
+            // 
+            this.ArrayProgram2Button.Location = new System.Drawing.Point(174, 149);
+            this.ArrayProgram2Button.Name = "ArrayProgram2Button";
+            this.ArrayProgram2Button.Size = new System.Drawing.Size(109, 23);
+            this.ArrayProgram2Button.TabIndex = 5;
+            this.ArrayProgram2Button.Text = "Array Program 2";
+            this.ArrayProgram2Button.UseVisualStyleBackColor = true;
+            this.ArrayProgram2Button.Click += new System.EventHandler(this.ArrayProgram2Button_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(315, 149);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Array Duplicate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(457, 148);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Method ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ArrayProgram2Button);
+            this.Controls.Add(this.LoopUiButton);
+            this.Controls.Add(this.ArrayButton);
             this.Controls.Add(this.CoffeeShopButton);
             this.Controls.Add(this.PersonalInformationButton);
             this.Controls.Add(this.CalculatorButton);
@@ -95,6 +155,11 @@
         private System.Windows.Forms.Button CalculatorButton;
         private System.Windows.Forms.Button PersonalInformationButton;
         private System.Windows.Forms.Button CoffeeShopButton;
+        private System.Windows.Forms.Button ArrayButton;
+        private System.Windows.Forms.Button LoopUiButton;
+        private System.Windows.Forms.Button ArrayProgram2Button;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
