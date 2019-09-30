@@ -15,7 +15,7 @@ namespace MyWinApps
         const int size = 10;
         int[] number = new int[size];
         int index = 0;
-        int count = 0;
+        
       
         public ArrayDuplicate()
         {

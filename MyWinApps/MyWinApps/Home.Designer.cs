@@ -37,6 +37,10 @@
             this.ArrayProgram2Button = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.ButtonList = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.CoffeeShopListButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ComboBoxButton
@@ -91,7 +95,7 @@
             // 
             // LoopUiButton
             // 
-            this.LoopUiButton.Location = new System.Drawing.Point(50, 149);
+            this.LoopUiButton.Location = new System.Drawing.Point(177, 173);
             this.LoopUiButton.Name = "LoopUiButton";
             this.LoopUiButton.Size = new System.Drawing.Size(99, 23);
             this.LoopUiButton.TabIndex = 4;
@@ -101,7 +105,7 @@
             // 
             // ArrayProgram2Button
             // 
-            this.ArrayProgram2Button.Location = new System.Drawing.Point(174, 149);
+            this.ArrayProgram2Button.Location = new System.Drawing.Point(301, 173);
             this.ArrayProgram2Button.Name = "ArrayProgram2Button";
             this.ArrayProgram2Button.Size = new System.Drawing.Size(109, 23);
             this.ArrayProgram2Button.TabIndex = 5;
@@ -111,7 +115,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(315, 149);
+            this.button1.Location = new System.Drawing.Point(442, 173);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 23);
             this.button1.TabIndex = 6;
@@ -121,7 +125,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(457, 148);
+            this.button2.Location = new System.Drawing.Point(584, 172);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
@@ -129,11 +133,55 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // ButtonList
+            // 
+            this.ButtonList.Location = new System.Drawing.Point(695, 172);
+            this.ButtonList.Name = "ButtonList";
+            this.ButtonList.Size = new System.Drawing.Size(75, 23);
+            this.ButtonList.TabIndex = 8;
+            this.ButtonList.Text = "List";
+            this.ButtonList.UseVisualStyleBackColor = true;
+            this.ButtonList.Click += new System.EventHandler(this.ButtonList_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(658, 95);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(112, 23);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Coffee Shop Array";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(49, 172);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(110, 23);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Coffee Shop U A P";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // CoffeeShopListButton
+            // 
+            this.CoffeeShopListButton.Location = new System.Drawing.Point(49, 237);
+            this.CoffeeShopListButton.Name = "CoffeeShopListButton";
+            this.CoffeeShopListButton.Size = new System.Drawing.Size(110, 23);
+            this.CoffeeShopListButton.TabIndex = 11;
+            this.CoffeeShopListButton.Text = "Coffee Shop List";
+            this.CoffeeShopListButton.UseVisualStyleBackColor = true;
+            this.CoffeeShopListButton.Click += new System.EventHandler(this.CoffeeShopListButton_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.CoffeeShopListButton);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ButtonList);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ArrayProgram2Button);
@@ -160,6 +208,10 @@
         private System.Windows.Forms.Button ArrayProgram2Button;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ButtonList;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button CoffeeShopListButton;
     }
 }
 

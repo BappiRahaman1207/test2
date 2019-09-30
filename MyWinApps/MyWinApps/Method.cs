@@ -35,7 +35,7 @@ namespace MyWinApps
             number[index] = Convert.ToInt32(AddTextBox.Text);
             index++;
 
-            string message = Show();
+            string message = Show("Add");
 
 
 
@@ -46,7 +46,7 @@ namespace MyWinApps
         {
             string message = "";
 
-             message = Show();
+             message = Show("Show");
 
             ShowRichTextBox.Text = "Array Are Show:" + "\n" + message + "\n";
         }
@@ -55,7 +55,7 @@ namespace MyWinApps
         {
             string message = "";
 
-            message=Show();
+            message=Show("Reverse");
 
             message = message+ "\n"+ "Array Are Reverse:" + "\n";
 
@@ -102,7 +102,7 @@ namespace MyWinApps
         //Method
 
 
-        private string Show()
+        private string Show(string Name)
         {
             string message = "";
             for (int index = 0; index < number.Length; index++)
@@ -118,7 +118,7 @@ namespace MyWinApps
 
 
             }
-            return message;
+            return Name +":"+ message;
         }
 
     }

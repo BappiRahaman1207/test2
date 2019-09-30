@@ -79,5 +79,33 @@ namespace MyWinApps
             newForm.Show();
             this.Hide();
         }
+
+        private void ButtonList_Click(object sender, EventArgs e)
+        {
+            List newForm = new List();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CoffeeShopArray newForm = new CoffeeShopArray();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CoffeeShopUAP newForm = new CoffeeShopUAP();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void CoffeeShopListButton_Click(object sender, EventArgs e)
+        {
+            CoffeeShopList newForm = new CoffeeShopList();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }
